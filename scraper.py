@@ -45,7 +45,7 @@ def main():
     with open('warwick_orgs.json', 'w') as f:
         json.dump(data, f, indent=4)
         
-    print(f"Successfully saved {len(combined_list)} organizations to warwick_orgs.json")
+    print(f"Successfully saved {len(combined_list)} organisations to warwick_orgs.json")
 
 if __name__ == "__main__":
     main()
